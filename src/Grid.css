@@ -1,0 +1,17 @@
+.q1 {
+  background-color: rgb(219, 92, 92);
+}
+.q2 {
+  background-color: rgb(219, 217, 92);
+}
+.q3 {
+  background-color: rgb(92, 219, 92);
+}
+.q4 {
+  background-color: rgb(0, 140, 255);
+}
+
+.qi {
+  font-weight: 700;
+  border: 3px solid black;
+}

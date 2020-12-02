@@ -5,3 +5,8 @@ table {
 tbody tr:nth-child(even) {
   background-color: #aaaaaa;
 }
+
+td,
+tr {
+  padding: 0.5rem;
+}

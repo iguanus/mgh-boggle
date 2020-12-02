@@ -4,6 +4,8 @@ import { sessionBuilder } from "./lib/testHelpers";
 import boggleAnalytics from "./lib/boggleAnalytics";
 import EventsTable from "./EventsTable";
 import StatsTable from "./StatsTable";
+import Grid from "./Grid";
+
 
 function App() {
   const events = sessionBuilder([
@@ -29,6 +31,7 @@ function App() {
 
   return (
     <div className="App">
+      <Grid />
       <EventsTable events={events} />
       <StatsTable stats={subject.stats} />
     </div>
