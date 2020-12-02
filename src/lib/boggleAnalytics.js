@@ -56,7 +56,7 @@ class BoggleAnalytics {
   addQuadrants(w) {
     const quadrants = this.wordLinks(w).map(l => this.blockQuadrant(l.meta.grid_position));
     // sorting here is only to keep same order of presentation, so that 1,2 is same as 2,1
-    const uniqueQuadrants = [... new Set(quadrants)].sort();
+    const uniqueQuadrants = [...new Set(quadrants)].sort();
     w.meta["quadrants"] = uniqueQuadrants;
   }
   addSize(w) { w.meta["size"] = w.meta.word.length; }
