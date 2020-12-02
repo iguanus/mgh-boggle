@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.App > * + * {
+  margin-left: 2rem;
+}
+.stats {
+  display: flex;
+  max-width: 12rem;
+  flex-wrap: wrap;
+}
